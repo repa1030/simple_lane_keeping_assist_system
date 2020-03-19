@@ -1,0 +1,81 @@
+LowPolyCar Changelog
+
+*** Version 0.3.9
+- Adding Reverse Light
+- Adjusting Lights
+
+*** Version 0.3.8
+- Fixing RAM bug
+
+*** Version 0.3.7
+- Adjusting front center camera
+
+*** Version 0.3.6
+- Added information about connection in GUI
+
+*** Version 0.3.5
+- Added delimiter in receive string
+- Added HSKA licencse plate
+- Improved driving stability
+
+*** Version 0.3.4
+- Added center of mass of rigid body
+- Moved streaming script to main object
+
+*** Version 0.3.3
+- Added drag value to rigid body
+
+*** Version 0.3.2
+- Added emergency braking in case of loss of connection.
+
+*** Version 0.3.1
+- Added visualization of steering, gas and brake pedal
+- Fixed velocity in Image Streaming script
+- Fixed steering angle in car controller
+
+*** Version 0.3.0
+- Code Clean up:
+  - Membervariables are now called "m_variable_name"
+  - Public Variables are called "variableName"
+  - Local Variables are called "variable_name"
+- Added function that disable autopilot if manual input exist
+- Added gas and brake pedal messages receiving
+- Added sending of current velocity
+- Added vehicle driving information in GUI
+- Fixed small bugs
+
+*** Version 0.2.1
+- Added receiving of control command
+- Added new function to read commands
+- Added time out function if receiving failed
+
+*** Version 0.2.0
+- Added image streaming to front center cam
+
+*** Version 0.1.2
+- Changed color
+- Adapted parameter of engine and wheel collider
+- Adepted material of tail and brake lights
+
+*** Version 0.1.1
+- Fixed reverse driving
+- Added reverse lights
+- Added key to turn on and off the lights ("h")
+- Clean up of the inspector of car controller
+
+*** Version 0.1.0
+- Added light system (head and rear)
+- Added real braking system
+- Added braking lights
+- Added front center camera for lane detection
+- Changed inspector of car controller
+  - Added options for brake lights
+  - Added options for light system
+  - Each axis can now be modyfied (motor, steering)
+
+*** Version 0.0.1
+- Fixed wrong coordinate system of wheel collider
+- Added simple car controller
+
+*** Version 0.0.0
+- Inital "Low Poly Car"
